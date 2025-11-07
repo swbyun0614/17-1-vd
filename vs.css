@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: #000;}
+
+.wrap {
+    width: 990px; height: 905px; margin: 0 auto;
+}
+
+.header {
+    width: 785px; height: 93px; margin: 0 auto;
+}
+.header h1 {
+    width: 160px; height: 65px; float: left;
+}
+.header .login_box {
+    float: right;
+}
+.header .login_box li {
+    height: 45px; float: left;
+}
+.header .login_box li a {
+    display: block; padding: 0 10px; height: 45px; line-height: 45px; font-size: 13px; color: #b7b7b7;
+}
+.header .gnb {
+    width: 785px; height: 28px; background-color: #414141; float: left; text-align: center;
+}
+.header .gnb li {display: inline-block;}
+.header .gnb li.bd {border: 1px solid #7e7e7e;}
+.header .gnb li a {
+    display: block; padding: 0 30px; height: 26px; color: #fff; font-weight: bold; font-size: 13px; line-height: 27px;
+}
+
+.visual {
+    width: 990px; height: 392px; background-color: aqua; margin: 9px 0 0 0;
+}
+
+.section {
+    width: 785px; height: 228px; margin: 32px auto 55px;
+}
+.section .content1 {
+    width: 251px; height: 164px; float: left;
+}
+.section .content2 {
+    width: 249px; height: 162px; background-color:aqua; float: left; margin: 0 15px; border: 1px solid #e0e0e0;
+}
+.section .content3 {
+    width: 251px; height: 164px; float: right; 
+}
+.section .notice {
+    width: 785px; height: 32px; background-color: #e3e3e3; float: left;margin: 32px 0;
+}
+
+.footer {
+    width: 990px; height: 96px; background-color: #3e3e3e;
+}
+.footer h1 {width: 109px; height: 36px; float: left; padding: 27px 0 0 187px;}
+.footer .copyright {margin: 24px 139px 0 0; float: right; font-size: 11px; font-family: 돋움; color: #7e7e7e;}
