@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* Reset */
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {color: #333; text-decoration: none;}
+
+.wrap {
+    width: 990px; height: 906px; margin: 0 auto;
+}
+
+.header {
+    width: 785px; height: 93px; background-color: #fff; margin: 0 auto 9px;
+}
+.header h1 {
+    width: 160px; height: 65px; float: left;
+}
+.header .login_box {
+    width: auto; height: 45px; float: right;
+}
+.header .login_box li {height: 45px; float: left; /* list-style: square; */}
+.header .login_box li a {
+    padding: 0px 10px; height: 45px; line-height: 45px; display: block; font-size: 12px; color: #b7b7b7;
+}
+.header .gnb {
+    width: 785px; height: 28px; background: #414141; float: left; text-align: center;
+}
+.header .gnb li {display: inline-block; height: 28px; font-weight: bold; font-size: 13px;}
+/* .header .gnb li.first {margin-left: 90px;} */
+.header .gnb li a {padding: 0 30px; display: block; height: 28px; line-height: 28px; color: #fff;}
+
+.visual {
+    width: 990px; height: 392px; background-color:burlywood;
+}
+
+.section {
+    width: 785px; height: 228px; border: 1px solid #000; margin: 32px auto 55px auto;
+}
+
+.footer {
+    width: 990px; height: 96px; background: #3e3e3e;
+}
